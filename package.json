@@ -1,5 +1,25 @@
 {
-    "author": "Jonathan Wood (https://www.jonathanpaulwood.com)",
-    "name": "pass-smash",
-    "version": "1.0.0"
-  }
+  "author": "Jonathan Wood (https://www.jonathanpaulwood.com)",
+  "name": "pass-smash",
+  "version": "1.0.0",
+  "description": "Utilities for creating and comparing hashes, salts, and stretches for passwords",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jonathan-Paul-Wood/pass-smash.git"
+  },
+  "keywords": [
+    "password",
+    "hash",
+    "stretch",
+    "salt"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jonathan-Paul-Wood/pass-smash/issues"
+  },
+  "homepage": "https://github.com/Jonathan-Paul-Wood/pass-smash#readme"
+}
