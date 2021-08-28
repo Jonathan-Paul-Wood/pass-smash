@@ -2,6 +2,12 @@
 
 Utilities for creating and comparing hashes, salts, and stretches for passwords
 
+Available at https://www.npmjs.com/package/pass-smash
+
+## Installation
+
+`npm install pass-smash`
+
 ## Usage
 
 Import the package (`const passMash = require('pass-mash')`), then create a PassMash object using `new PassMash`
