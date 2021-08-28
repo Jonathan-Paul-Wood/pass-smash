@@ -18,6 +18,12 @@ Password should be a string. This returns a hash (string) of the input.
 
 Randomly generated decimal; used in the `storePassword` and `comparePassword` functions.
 
+### processHash
+
+`passMash.processHash(password, stretch, salt)`
+
+Concatenates the `password` with the `salt`, then the resulting hash again with the `salt`. Repeats for `stretch` iterations before returning the resulting hash.
+
 ### storePassword
 
 `passMash.storePassword(password, stretch)`
